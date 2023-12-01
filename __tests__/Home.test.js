@@ -1,7 +1,7 @@
 // import React from 'react';
 // import { Alert } from 'react-native';
 // import { render, fireEvent } from '@testing-library/react-native';
-// // import Home from '../src/pages/Home';
+// import Home from '../src/pages/Home';
 //
 // jest.spyOn(Alert, 'alert');
 //
