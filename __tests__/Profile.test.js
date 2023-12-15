@@ -1,12 +1,13 @@
+jest.mock('react-native/Libraries/EventEmitter/NativeEventEmitter');
+
 import React from 'react';
-import { Alert } from 'react-native';
-import { render, fireEvent } from '@testing-library/react-native';
+import { render } from '@testing-library/react-native';
 import Profile from "../src/Profile";
 //
 // jest.spyOn(Alert, 'alert');
 //
-describe('Home', () => {
-    it('Home 화면이 정상적으로 렌더링 되는가?', () => {
+describe('Profile', () => {
+    it('Profile 화면이 정상적으로 렌더링 되는가?', () => {
         const screen = render(<Profile />);
         const json = screen.toJSON();
         expect(json).toMatchSnapshot();
