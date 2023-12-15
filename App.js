@@ -6,7 +6,7 @@ import Profile from "./src/Profile";
 const App = () => {
   return (
       <View style={styles.container}>
-        <Profile userName={"whosbax"} name={"호상박"} />
+        <Profile userName={"who"} name={"호상박"} />
       </View>
   );
 };
